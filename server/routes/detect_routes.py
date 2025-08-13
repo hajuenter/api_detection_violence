@@ -1,28 +1,57 @@
-from flask import Blueprint, request, jsonify, current_app
+from flask import Blueprint, Response, jsonify
 from app.model_service import detect_fight
-import os
-import uuid
+import cv2
 
 detect_bp = Blueprint("detect", __name__)
 
-@detect_bp.route("/detect", methods=["POST"])
-def detect():
-    if "file" not in request.files:
-        return jsonify({"error": "No file uploaded"}), 400
-    
-    file = request.files["file"]
-    if file.filename == "":
-        return jsonify({"error": "Empty filename"}), 400
+# Variabel global untuk simpan status
+last_status = {"label": "normal", "confidence": 0}
 
-    # Simpan file sementara
-    filename = f"{uuid.uuid4().hex}_{file.filename}"
-    filepath = os.path.join(current_app.config["UPLOAD_FOLDER"], filename)
-    file.save(filepath)
+def generate_frames():
+    global last_status
 
-    # Jalankan deteksi
-    result = detect_fight(filepath)
+    camera = cv2.VideoCapture(0)
 
-    # Hapus file sementara
-    os.remove(filepath)
+    while True:
+        ret, frame = camera.read()
+        if not ret:
+            break
 
-    return jsonify(result)
+        # --- DETEKSI REALTIME ---
+        result = detect_fight(frame)  
+        label = result.get("label", "normal")
+        confidence = result.get("confidence", 0)
+
+        # Simpan status terbaru
+        last_status = {"label": label, "confidence": confidence}
+
+        # Gambar bounding box kalau ada
+        if "bbox" in result:
+            for (x1, y1, x2, y2) in result["bbox"]:
+                cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 2)
+
+        # Tulis label + confidence hanya kalau label valid
+        if label and label.lower() != "unknown":
+            cv2.putText(frame, f"{label} ({confidence:.2f})", (10, 30),
+                        cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+
+        # Encode frame untuk dikirim ke browser
+        _, buffer = cv2.imencode('.jpg', frame, [int(cv2.IMWRITE_JPEG_QUALITY), 60])
+        frame_bytes = buffer.tobytes()
+
+        yield (b'--frame\r\n'
+               b'Content-Type: image/jpeg\r\n\r\n' + frame_bytes + b'\r\n')
+
+    camera.release()
+
+@detect_bp.route('/snapshot')
+def snapshot():
+    return Response(
+        generate_frames(),
+        mimetype='multipart/x-mixed-replace; boundary=frame'
+    )
+
+# Endpoint untuk ESP membaca status
+@detect_bp.route('/status')
+def status():
+    return jsonify(last_status)
