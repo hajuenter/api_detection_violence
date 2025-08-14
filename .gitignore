@@ -1,0 +1,9 @@
+routes\_pycache_
+server/app/_pycache/init_.cpython-310.pyc
+server/app/_pycache_/model_service.cpython-310.pyc
+server/config/_pycache_/settings.cpython-310.pyc
+server/routes/_pycache_/detect_routes.cpython-310.pyc
+server/config/firebase_key.json
+detected_images
+server/detect_status.log
+server/uploads
