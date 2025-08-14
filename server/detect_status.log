@@ -7693,3 +7693,251 @@
 2025-08-14 13:21:10,680 [INFO] 10.125.108.199 - - [14/Aug/2025 13:21:10] "GET /status HTTP/1.1" 200 -
 2025-08-14 13:21:11,068 [INFO] 10.125.108.199 - - [14/Aug/2025 13:21:11] "GET /status HTTP/1.1" 200 -
 2025-08-14 13:21:11,625 [INFO] 10.125.108.199 - - [14/Aug/2025 13:21:11] "GET /status HTTP/1.1" 200 -
+2025-08-14 18:14:41,720 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.108.246:5000
+2025-08-14 18:14:41,721 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-14 18:14:41,724 [INFO]  * Restarting with stat
+2025-08-14 18:14:44,545 [WARNING]  * Debugger is active!
+2025-08-14 18:14:44,555 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 18:15:45,568 [INFO] 127.0.0.1 - - [14/Aug/2025 18:15:45] "POST /login HTTP/1.1" 200 -
+2025-08-14 18:17:38,935 [INFO] 127.0.0.1 - - [14/Aug/2025 18:17:38] "POST /login HTTP/1.1" 200 -
+2025-08-14 18:19:52,798 [INFO] 127.0.0.1 - - [14/Aug/2025 18:19:52] "POST /logout HTTP/1.1" 200 -
+2025-08-14 18:20:00,436 [INFO] 127.0.0.1 - - [14/Aug/2025 18:20:00] "POST /login HTTP/1.1" 200 -
+2025-08-14 18:20:04,279 [INFO] 127.0.0.1 - - [14/Aug/2025 18:20:04] "[31m[1mPOST /logout HTTP/1.1[0m" 401 -
+2025-08-14 18:29:03,463 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\app\\__init__.py', reloading
+2025-08-14 18:29:04,197 [INFO]  * Restarting with stat
+2025-08-14 18:38:43,623 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.108.246:5000
+2025-08-14 18:38:43,623 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-14 18:38:43,626 [INFO]  * Restarting with stat
+2025-08-14 18:38:46,145 [WARNING]  * Debugger is active!
+2025-08-14 18:38:46,148 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 18:39:08,707 [INFO] 127.0.0.1 - - [14/Aug/2025 18:39:08] "POST /login HTTP/1.1" 200 -
+2025-08-14 18:39:13,237 [INFO] 127.0.0.1 - - [14/Aug/2025 18:39:13] "[31m[1mPOST /logout HTTP/1.1[0m" 401 -
+2025-08-14 18:39:33,647 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 18:39:34,229 [INFO]  * Restarting with stat
+2025-08-14 18:39:37,251 [WARNING]  * Debugger is active!
+2025-08-14 18:39:37,254 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 18:56:55,214 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 18:56:55,766 [INFO]  * Restarting with stat
+2025-08-14 18:56:59,054 [WARNING]  * Debugger is active!
+2025-08-14 18:56:59,057 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:03:19,546 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:03:20,366 [INFO]  * Restarting with stat
+2025-08-14 19:03:23,785 [WARNING]  * Debugger is active!
+2025-08-14 19:03:23,789 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:03:30,140 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:03:30,852 [INFO]  * Restarting with stat
+2025-08-14 19:03:33,982 [WARNING]  * Debugger is active!
+2025-08-14 19:03:33,985 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:04:04,195 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:04:04,925 [INFO]  * Restarting with stat
+2025-08-14 19:04:08,766 [WARNING]  * Debugger is active!
+2025-08-14 19:04:08,769 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:04:12,912 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:04:13,554 [INFO]  * Restarting with stat
+2025-08-14 19:04:16,870 [WARNING]  * Debugger is active!
+2025-08-14 19:04:16,872 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:04:40,176 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.108.246:5000
+2025-08-14 19:04:40,176 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-14 19:04:40,177 [INFO]  * Restarting with stat
+2025-08-14 19:04:43,014 [WARNING]  * Debugger is active!
+2025-08-14 19:04:43,017 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:06:56,806 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\app\\__init__.py', reloading
+2025-08-14 19:06:57,417 [INFO]  * Restarting with stat
+2025-08-14 19:07:00,431 [WARNING]  * Debugger is active!
+2025-08-14 19:07:00,434 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:10:00,468 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\app\\__init__.py', reloading
+2025-08-14 19:10:00,959 [INFO]  * Restarting with stat
+2025-08-14 19:10:04,528 [WARNING]  * Debugger is active!
+2025-08-14 19:10:04,540 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:12:57,588 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\app\\__init__.py', reloading
+2025-08-14 19:12:58,485 [INFO]  * Restarting with stat
+2025-08-14 19:13:03,403 [WARNING]  * Debugger is active!
+2025-08-14 19:13:03,411 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:13:06,571 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:13:07,419 [INFO]  * Restarting with stat
+2025-08-14 19:13:11,557 [WARNING]  * Debugger is active!
+2025-08-14 19:13:11,560 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:13:18,920 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:13:19,476 [INFO]  * Restarting with stat
+2025-08-14 19:13:22,837 [WARNING]  * Debugger is active!
+2025-08-14 19:13:22,843 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:13:38,228 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.108.246:5000
+2025-08-14 19:13:38,228 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-14 19:13:38,230 [INFO]  * Restarting with stat
+2025-08-14 19:13:40,663 [WARNING]  * Debugger is active!
+2025-08-14 19:13:40,667 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:14:56,399 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\app\\__init__.py', reloading
+2025-08-14 19:14:56,871 [INFO]  * Restarting with stat
+2025-08-14 19:14:59,888 [WARNING]  * Debugger is active!
+2025-08-14 19:14:59,890 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:35:40,833 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\app\\db.py', reloading
+2025-08-14 19:35:41,432 [INFO]  * Restarting with stat
+2025-08-14 19:35:44,826 [WARNING]  * Debugger is active!
+2025-08-14 19:35:44,829 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:36:02,247 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\app\\db.py', reloading
+2025-08-14 19:36:02,612 [INFO]  * Restarting with stat
+2025-08-14 19:36:05,341 [WARNING]  * Debugger is active!
+2025-08-14 19:36:05,344 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:36:25,941 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\run.py', reloading
+2025-08-14 19:36:26,339 [INFO]  * Restarting with stat
+2025-08-14 19:37:42,891 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.108.246:5000
+2025-08-14 19:37:42,891 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-14 19:37:42,895 [INFO]  * Restarting with stat
+2025-08-14 19:37:46,191 [WARNING]  * Debugger is active!
+2025-08-14 19:37:46,197 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:37:56,544 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\run.py', reloading
+2025-08-14 19:37:57,493 [INFO]  * Restarting with stat
+2025-08-14 19:38:00,866 [WARNING]  * Debugger is active!
+2025-08-14 19:38:00,868 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:38:14,231 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.108.246:5000
+2025-08-14 19:38:14,231 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-14 19:38:14,232 [INFO]  * Restarting with stat
+2025-08-14 19:38:17,211 [WARNING]  * Debugger is active!
+2025-08-14 19:38:17,221 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:40:01,245 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\app\\imagekit_service.py', reloading
+2025-08-14 19:40:02,042 [INFO]  * Restarting with stat
+2025-08-14 19:40:06,149 [WARNING]  * Debugger is active!
+2025-08-14 19:40:06,151 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:40:46,298 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\app\\imagekit_service.py', reloading
+2025-08-14 19:40:47,469 [INFO]  * Restarting with stat
+2025-08-14 19:40:50,820 [WARNING]  * Debugger is active!
+2025-08-14 19:40:50,823 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:41:19,786 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:41:20,758 [INFO]  * Restarting with stat
+2025-08-14 19:41:24,699 [WARNING]  * Debugger is active!
+2025-08-14 19:41:24,702 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:41:55,203 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:41:56,199 [INFO]  * Restarting with stat
+2025-08-14 19:42:00,136 [WARNING]  * Debugger is active!
+2025-08-14 19:42:00,139 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:42:10,793 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:42:12,449 [INFO]  * Restarting with stat
+2025-08-14 19:42:16,192 [WARNING]  * Debugger is active!
+2025-08-14 19:42:16,195 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:43:03,668 [INFO] 127.0.0.1 - - [14/Aug/2025 19:43:03] "[31m[1mPOST /detect HTTP/1.1[0m" 400 -
+2025-08-14 19:43:33,209 [INFO] 127.0.0.1 - - [14/Aug/2025 19:43:33] "POST /detect HTTP/1.1" 200 -
+2025-08-14 19:45:12,212 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.108.246:5000
+2025-08-14 19:45:12,213 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-14 19:45:12,215 [INFO]  * Restarting with stat
+2025-08-14 19:45:15,469 [WARNING]  * Debugger is active!
+2025-08-14 19:45:15,474 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:45:24,572 [INFO] 127.0.0.1 - - [14/Aug/2025 19:45:24] "POST /detect HTTP/1.1" 200 -
+2025-08-14 19:47:01,235 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:47:02,420 [INFO]  * Restarting with stat
+2025-08-14 19:47:12,714 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.108.246:5000
+2025-08-14 19:47:12,714 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-14 19:47:12,715 [INFO]  * Restarting with stat
+2025-08-14 19:47:15,832 [WARNING]  * Debugger is active!
+2025-08-14 19:47:15,847 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:47:26,772 [INFO] 127.0.0.1 - - [14/Aug/2025 19:47:26] "POST /detect HTTP/1.1" 200 -
+2025-08-14 19:52:34,815 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:52:35,942 [INFO]  * Restarting with stat
+2025-08-14 19:52:40,222 [WARNING]  * Debugger is active!
+2025-08-14 19:52:40,225 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:52:59,008 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:52:59,695 [INFO]  * Restarting with stat
+2025-08-14 19:53:03,157 [WARNING]  * Debugger is active!
+2025-08-14 19:53:03,160 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:53:07,323 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:53:08,286 [INFO]  * Restarting with stat
+2025-08-14 19:53:12,267 [WARNING]  * Debugger is active!
+2025-08-14 19:53:12,269 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:53:14,367 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:53:15,218 [INFO]  * Restarting with stat
+2025-08-14 19:53:19,029 [WARNING]  * Debugger is active!
+2025-08-14 19:53:19,032 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:55:54,176 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:55:54,953 [INFO]  * Restarting with stat
+2025-08-14 19:55:58,604 [WARNING]  * Debugger is active!
+2025-08-14 19:55:58,608 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:56:08,036 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:56:08,901 [INFO]  * Restarting with stat
+2025-08-14 19:56:12,076 [WARNING]  * Debugger is active!
+2025-08-14 19:56:12,079 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:56:21,313 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.108.246:5000
+2025-08-14 19:56:21,313 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-14 19:56:21,319 [INFO]  * Restarting with stat
+2025-08-14 19:56:24,895 [WARNING]  * Debugger is active!
+2025-08-14 19:56:24,908 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:56:34,342 [ERROR] Gagal menyimpan ke MongoDB: module 'datetime' has no attribute 'utcnow'
+2025-08-14 19:56:34,343 [INFO] 127.0.0.1 - - [14/Aug/2025 19:56:34] "[35m[1mPOST /detect HTTP/1.1[0m" 500 -
+2025-08-14 19:57:26,874 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:57:28,038 [INFO]  * Restarting with stat
+2025-08-14 19:57:31,690 [WARNING]  * Debugger is active!
+2025-08-14 19:57:31,694 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 19:57:52,489 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
+2025-08-14 19:57:53,455 [INFO]  * Restarting with stat
+2025-08-14 21:04:08,425 [INFO] Firebase Admin SDK initialized.
+2025-08-14 21:04:08,467 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.125.108.246:5000
+2025-08-14 21:04:08,468 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-14 21:04:08,473 [INFO]  * Restarting with stat
+2025-08-14 21:04:12,422 [INFO] Firebase Admin SDK initialized.
+2025-08-14 21:04:12,445 [WARNING]  * Debugger is active!
+2025-08-14 21:04:12,449 [INFO]  * Debugger PIN: 956-357-725
+2025-08-14 21:04:52,055 [INFO] 127.0.0.1 - - [14/Aug/2025 21:04:52] "GET /snapshot HTTP/1.1" 200 -
+2025-08-14 21:04:52,543 [INFO] Fight image saved: C:\Users\asus\Dokumen\berkas belajar coding\project_knu_flask\server\routes\..\detected_images\fight_1755180292_aee036.jpg
+2025-08-14 21:04:53,341 [INFO] \u2705 Fight alert sent to Firebase: http://localhost:5000/detected_images/fight_1755180292_aee036.jpg
+2025-08-14 21:04:53,741 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:54,194 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:54,874 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:55,327 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:55,813 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:56,399 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:56,779 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:57,192 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:57,522 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:57,880 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:58,291 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:58,671 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:59,003 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:59,437 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:04:59,771 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:05:00,113 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:05:00,487 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:05:00,844 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:05:01,185 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:05:01,558 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:05:01,889 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:05:02,231 [INFO] Cooldown active. Skipping fight alert (last: 1755180292.5403802)
+2025-08-14 21:05:02,677 [INFO] Fight image saved: C:\Users\asus\Dokumen\berkas belajar coding\project_knu_flask\server\routes\..\detected_images\fight_1755180302_16ca9d.jpg
+2025-08-14 21:05:02,951 [INFO] \u2705 Fight alert sent to Firebase: http://localhost:5000/detected_images/fight_1755180302_16ca9d.jpg
+2025-08-14 21:05:03,319 [INFO] Cooldown active. Skipping fight alert (last: 1755180302.6747403)
+2025-08-14 21:05:03,685 [INFO] Cooldown active. Skipping fight alert (last: 1755180302.6747403)
+2025-08-14 21:05:04,357 [INFO] Cooldown active. Skipping fight alert (last: 1755180302.6747403)
+2025-08-14 21:05:04,728 [INFO] Cooldown active. Skipping fight alert (last: 1755180302.6747403)
+2025-08-14 21:05:05,722 [INFO] Cooldown active. Skipping fight alert (last: 1755180302.6747403)
+2025-08-14 21:05:06,542 [INFO] Cooldown active. Skipping fight alert (last: 1755180302.6747403)
+2025-08-14 21:05:06,919 [INFO] Cooldown active. Skipping fight alert (last: 1755180302.6747403)
+2025-08-14 21:05:07,318 [INFO] Cooldown active. Skipping fight alert (last: 1755180302.6747403)
+2025-08-14 21:05:07,649 [INFO] Cooldown active. Skipping fight alert (last: 1755180302.6747403)
+2025-08-14 21:05:07,988 [INFO] Cooldown active. Skipping fight alert (last: 1755180302.6747403)
