@@ -4,11 +4,19 @@ import os
 import uuid
 import cv2
 import time
+import logging
 
 detect_bp = Blueprint("detect", __name__)
 
 # Status terakhir deteksi realtime
 last_status = {"label": "normal", "confidence": 0, "timestamp": time.time()}
+
+log_file = os.path.join(os.path.dirname(__file__), "..", "detect_status.log")
+logging.basicConfig(
+    filename=log_file,
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s"
+)
 
 def update_status(label, confidence):
     """Update status terakhir dengan timestamp sekarang"""
@@ -32,8 +40,14 @@ def generate_frames():
 
         # Deteksi fight pada frame
         result = detect_fight(frame)
-        label = result.get("label", "normal")
-        confidence = result.get("confidence", 0)
+        if result["detections"]:
+            # Ambil deteksi dengan confidence tertinggi
+            best = max(result["detections"], key=lambda d: d["confidence"])
+            label = best["class_name"]
+            confidence = best["confidence"]
+        else:
+            label = "normal"
+            confidence = 0.0
 
         # Update status realtime
         update_status(label, confidence)
@@ -82,6 +96,14 @@ def detect():
 
     result = detect_fight(filepath)
 
+    # Update status global jika terdeteksi fight
+    label = result.get("label", "normal")
+    confidence = result.get("confidence", 0)
+    if label.lower() == "fight":
+        update_status("fight", confidence)  # ubah ke "detect"
+    else:
+        update_status("normal", confidence)
+
     try:
         os.remove(filepath)
     except Exception as e:
@@ -93,6 +115,4 @@ def detect():
 @detect_bp.route('/status')
 def status():
     # Reset otomatis ke normal jika tidak ada update > 5 detik
-    if time.time() - last_status["timestamp"] > 5:
-        return jsonify({"label": "normal", "confidence": 0})
     return jsonify(last_status)
