@@ -7,3 +7,4 @@ server/config/firebase_key.json
 detected_images
 server/detect_status.log
 server/uploads
+server/models/car_crash_model.pt
