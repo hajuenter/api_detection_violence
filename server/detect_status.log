@@ -334,3 +334,507 @@
 2025-08-18 21:19:20,511 [INFO] 127.0.0.1 - - [18/Aug/2025 21:19:20] "GET /status/car HTTP/1.1" 200 -
 2025-08-18 21:20:23,513 [INFO]  * Detected change in 'C:\\Users\\asus\\Dokumen\\berkas belajar coding\\project_knu_flask\\server\\routes\\detect_routes.py', reloading
 2025-08-18 21:20:24,437 [INFO]  * Restarting with stat
+2025-08-19 08:54:28,095 [INFO] Firebase Admin SDK initialized.
+2025-08-19 08:54:28,198 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.206.208:5000
+2025-08-19 08:54:28,199 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-19 08:54:28,202 [INFO]  * Restarting with stat
+2025-08-19 08:54:32,381 [INFO] Firebase Admin SDK initialized.
+2025-08-19 08:54:32,405 [WARNING]  * Debugger is active!
+2025-08-19 08:54:32,411 [INFO]  * Debugger PIN: 956-357-725
+2025-08-19 08:55:19,313 [INFO] Firebase Admin SDK initialized.
+2025-08-19 08:55:19,362 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.232.215.97:5000
+2025-08-19 08:55:19,363 [INFO] [33mPress CTRL+C to quit[0m
+2025-08-19 08:55:19,364 [INFO]  * Restarting with stat
+2025-08-19 08:55:23,316 [INFO] Firebase Admin SDK initialized.
+2025-08-19 08:55:23,341 [WARNING]  * Debugger is active!
+2025-08-19 08:55:23,345 [INFO]  * Debugger PIN: 956-357-725
+2025-08-19 08:57:25,302 [INFO] 127.0.0.1 - - [19/Aug/2025 08:57:25] "GET /snapshot HTTP/1.1" 200 -
+2025-08-19 08:57:25,912 [INFO] \U0001f4be Fight image saved: C:\Users\asus\Dokumen\berkas belajar coding\project_knu_flask\server\routes\..\detected_images\fight_1755568645_9bc05f.jpg
+2025-08-19 08:57:29,107 [INFO] \U0001f525 Fight alert sent to Firebase: http://localhost:5000/detected_images/fight_1755568645_9bc05f.jpg
+2025-08-19 08:57:29,108 [INFO] \U0001f525 Fight detected with confidence: 0.81
+2025-08-19 08:57:29,108 [INFO] \U0001f4f1 Status updated: normal \u2192 fight (ESP32 will receive this)
+2025-08-19 08:57:29,736 [INFO] \U0001f504 Status changed from fight to normal. Ready for next fight detection.
+2025-08-19 08:57:29,736 [INFO] \U0001f4f1 Status updated: fight \u2192 normal (ESP32 will receive this)
+2025-08-19 08:57:46,225 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:46] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:47,177 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:47] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:47,756 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:47] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:48,150 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:48] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:48,642 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:48] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:49,333 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:49] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:49,487 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:49] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:49,990 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:49] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:50,026 [INFO] \U0001f4be Fight image saved: C:\Users\asus\Dokumen\berkas belajar coding\project_knu_flask\server\routes\..\detected_images\fight_1755568670_f684ee.jpg
+2025-08-19 08:57:50,574 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:50] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:50,720 [INFO] \U0001f525 Fight alert sent to Firebase: http://localhost:5000/detected_images/fight_1755568670_f684ee.jpg
+2025-08-19 08:57:50,720 [INFO] \U0001f525 Fight detected with confidence: 0.73
+2025-08-19 08:57:50,721 [INFO] \U0001f4f1 Status updated: normal \u2192 fight (ESP32 will receive this)
+2025-08-19 08:57:51,057 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:51] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:51,367 [INFO] \U0001f504 Status changed from fight to normal. Ready for next fight detection.
+2025-08-19 08:57:51,368 [INFO] \U0001f4f1 Status updated: fight \u2192 normal (ESP32 will receive this)
+2025-08-19 08:57:51,919 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:51] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:52,580 [INFO] \U0001f4be Fight image saved: C:\Users\asus\Dokumen\berkas belajar coding\project_knu_flask\server\routes\..\detected_images\fight_1755568672_954c57.jpg
+2025-08-19 08:57:52,824 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:52] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:53,081 [INFO] \U0001f525 Fight alert sent to Firebase: http://localhost:5000/detected_images/fight_1755568672_954c57.jpg
+2025-08-19 08:57:53,081 [INFO] \U0001f525 Fight detected with confidence: 0.71
+2025-08-19 08:57:53,082 [INFO] \U0001f4f1 Status updated: normal \u2192 fight (ESP32 will receive this)
+2025-08-19 08:57:53,214 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:53] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:53,572 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:53] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:53,870 [INFO] \u23f8\ufe0f  Fight already logged in this episode. Skipping...
+2025-08-19 08:57:53,871 [INFO] \U0001f525 Fight detected with confidence: 0.77
+2025-08-19 08:57:54,073 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:54] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:54,462 [INFO] \u23f8\ufe0f  Fight already logged in this episode. Skipping...
+2025-08-19 08:57:54,463 [INFO] \U0001f525 Fight detected with confidence: 0.77
+2025-08-19 08:57:54,605 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:54] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:55,059 [INFO] \u23f8\ufe0f  Fight already logged in this episode. Skipping...
+2025-08-19 08:57:55,060 [INFO] \U0001f525 Fight detected with confidence: 0.75
+2025-08-19 08:57:55,071 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:55] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:55,689 [INFO] \U0001f504 Status changed from fight to normal. Ready for next fight detection.
+2025-08-19 08:57:55,689 [INFO] \U0001f4f1 Status updated: fight \u2192 normal (ESP32 will receive this)
+2025-08-19 08:57:56,048 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:56] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:56,283 [INFO] \U0001f4be Fight image saved: C:\Users\asus\Dokumen\berkas belajar coding\project_knu_flask\server\routes\..\detected_images\fight_1755568676_5f349d.jpg
+2025-08-19 08:57:56,695 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:56] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:56,781 [INFO] \U0001f525 Fight alert sent to Firebase: http://localhost:5000/detected_images/fight_1755568676_5f349d.jpg
+2025-08-19 08:57:56,782 [INFO] \U0001f525 Fight detected with confidence: 0.73
+2025-08-19 08:57:56,782 [INFO] \U0001f4f1 Status updated: normal \u2192 fight (ESP32 will receive this)
+2025-08-19 08:57:57,088 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:57] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:57,426 [INFO] \u23f8\ufe0f  Fight already logged in this episode. Skipping...
+2025-08-19 08:57:57,426 [INFO] \U0001f525 Fight detected with confidence: 0.78
+2025-08-19 08:57:57,482 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:57] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:57,932 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:57] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:58,055 [INFO] \u23f8\ufe0f  Fight already logged in this episode. Skipping...
+2025-08-19 08:57:58,055 [INFO] \U0001f525 Fight detected with confidence: 0.76
+2025-08-19 08:57:58,404 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:58] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:58,703 [INFO] \u23f8\ufe0f  Fight already logged in this episode. Skipping...
+2025-08-19 08:57:58,703 [INFO] \U0001f525 Fight detected with confidence: 0.74
+2025-08-19 08:57:59,267 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:59] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:59,332 [INFO] \u23f8\ufe0f  Fight already logged in this episode. Skipping...
+2025-08-19 08:57:59,332 [INFO] \U0001f525 Fight detected with confidence: 0.71
+2025-08-19 08:57:59,530 [INFO] 10.232.215.82 - - [19/Aug/2025 08:57:59] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:57:59,926 [INFO] \U0001f504 Status changed from fight to normal. Ready for next fight detection.
+2025-08-19 08:57:59,927 [INFO] \U0001f4f1 Status updated: fight \u2192 normal (ESP32 will receive this)
+2025-08-19 08:58:00,194 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:00] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:00,572 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:00] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:01,064 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:01] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:01,889 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:01] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:02,709 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:02] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:03,655 [INFO] \U0001f4be Fight image saved: C:\Users\asus\Dokumen\berkas belajar coding\project_knu_flask\server\routes\..\detected_images\fight_1755568683_eb2cb6.jpg
+2025-08-19 08:58:03,663 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:03] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:04,240 [INFO] \U0001f525 Fight alert sent to Firebase: http://localhost:5000/detected_images/fight_1755568683_eb2cb6.jpg
+2025-08-19 08:58:04,241 [INFO] \U0001f525 Fight detected with confidence: 0.72
+2025-08-19 08:58:04,241 [INFO] \U0001f4f1 Status updated: normal \u2192 fight (ESP32 will receive this)
+2025-08-19 08:58:04,243 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:04] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:04,949 [INFO] \U0001f504 Status changed from fight to normal. Ready for next fight detection.
+2025-08-19 08:58:04,949 [INFO] \U0001f4f1 Status updated: fight \u2192 normal (ESP32 will receive this)
+2025-08-19 08:58:05,064 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:05] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:06,090 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:06] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:06,634 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:06] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:07,230 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:07] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:07,633 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:07] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:08,286 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:08] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:09,157 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:09] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:09,908 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:09] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:10,343 [INFO] \U0001f4be Fight image saved: C:\Users\asus\Dokumen\berkas belajar coding\project_knu_flask\server\routes\..\detected_images\fight_1755568690_3fad5a.jpg
+2025-08-19 08:58:11,107 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:11] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:11,108 [INFO] \U0001f525 Fight alert sent to Firebase: http://localhost:5000/detected_images/fight_1755568690_3fad5a.jpg
+2025-08-19 08:58:11,109 [INFO] \U0001f525 Fight detected with confidence: 0.79
+2025-08-19 08:58:11,110 [INFO] \U0001f4f1 Status updated: normal \u2192 fight (ESP32 will receive this)
+2025-08-19 08:58:11,328 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:11] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:11,732 [INFO] \u23f8\ufe0f  Fight already logged in this episode. Skipping...
+2025-08-19 08:58:11,732 [INFO] \U0001f525 Fight detected with confidence: 0.71
+2025-08-19 08:58:12,308 [INFO] \U0001f504 Status changed from fight to normal. Ready for next fight detection.
+2025-08-19 08:58:12,308 [INFO] \U0001f4f1 Status updated: fight \u2192 normal (ESP32 will receive this)
+2025-08-19 08:58:12,642 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:12] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:12,978 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:12] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:14,280 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:14] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:15,099 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:15] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:16,122 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:16] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:17,143 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:17] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:18,068 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:18] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:18,688 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:18] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:19,262 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:19] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:19,619 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:19] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:20,335 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:20] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:20,902 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:20] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:21,473 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:21] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:21,592 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:21] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:22,104 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:22] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:22,583 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:22] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:23,083 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:23] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:24,314 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:24] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:25,029 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:25] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:25,356 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:25] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:25,735 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:25] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:26,220 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:26] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:26,741 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:26] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:27,224 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:27] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:29,128 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:29] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:29,637 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:29] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:29,971 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:29] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:30,538 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:30] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:31,331 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:31] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:31,766 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:31] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:32,407 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:32] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:35,083 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:35] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:37,720 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:37] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:39,971 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:39] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:40,786 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:40] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:41,002 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:41] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:41,454 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:41] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:41,966 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:41] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:42,538 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:42] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:42,950 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:42] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:43,452 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:43] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:43,950 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:43] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:44,451 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:44] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:44,952 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:44] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:45,450 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:45] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:45,953 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:45] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:46,235 [INFO] \U0001f50d ENDPOINT: Detection result: {'crash_detected': True, 'detections': [{'class_id': 5, 'class_name': 'car_car_accident', 'confidence': 0.6837339997291565, 'bbox': [2.267756938934326, 56.92292404174805, 564.7661743164062, 340.8201599121094]}, {'class_id': 6, 'class_name': 'car_motorcycle_accident', 'confidence': 0.2596522271633148, 'bbox': [0.7192788124084473, 57.339195251464844, 560.317626953125, 336.9912109375]}]}
+2025-08-19 08:58:46,235 [WARNING] \u26a0\ufe0f ENDPOINT: Crash detected but confidence 0.684 < 0.7, but still processing as crash
+2025-08-19 08:58:46,235 [INFO] \U0001f3af ENDPOINT: Updating status to CRASH with confidence 0.684
+2025-08-19 08:58:46,235 [INFO] \u23f0 Started 5-second timer to reset car status to normal
+2025-08-19 08:58:46,235 [INFO] \U0001f697 Car status updated (endpoint): normal \u2192 crash (confidence: 0.68)
+2025-08-19 08:58:46,236 [INFO] \U0001f4ca ENDPOINT: Final car status: crash
+2025-08-19 08:58:46,236 [INFO] 127.0.0.1 - - [19/Aug/2025 08:58:46] "POST /detect/car_crash HTTP/1.1" 200 -
+2025-08-19 08:58:46,451 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:46] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:46,952 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:46] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:47,450 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:47] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:47,951 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:47] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:48,455 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:48] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:48,960 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:48] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:49,450 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:49] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:49,955 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:49] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:50,450 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:50] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:50,957 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:50] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:51,236 [INFO] \u23f0 Car status automatically reset to normal after 5 seconds (endpoint detection)
+2025-08-19 08:58:51,454 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:51] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:51,930 [INFO] \U0001f50d ENDPOINT: Detection result: {'crash_detected': True, 'detections': [{'class_id': 5, 'class_name': 'car_car_accident', 'confidence': 0.6837339997291565, 'bbox': [2.267756938934326, 56.92292404174805, 564.7661743164062, 340.8201599121094]}, {'class_id': 6, 'class_name': 'car_motorcycle_accident', 'confidence': 0.2596522271633148, 'bbox': [0.7192788124084473, 57.339195251464844, 560.317626953125, 336.9912109375]}]}
+2025-08-19 08:58:51,930 [WARNING] \u26a0\ufe0f ENDPOINT: Crash detected but confidence 0.684 < 0.7, but still processing as crash
+2025-08-19 08:58:51,930 [INFO] \U0001f3af ENDPOINT: Updating status to CRASH with confidence 0.684
+2025-08-19 08:58:51,931 [INFO] \u23f0 Started 5-second timer to reset car status to normal
+2025-08-19 08:58:51,931 [INFO] \U0001f697 Car status updated (endpoint): normal \u2192 crash (confidence: 0.68)
+2025-08-19 08:58:51,931 [INFO] \U0001f4ca ENDPOINT: Final car status: crash
+2025-08-19 08:58:51,932 [INFO] 127.0.0.1 - - [19/Aug/2025 08:58:51] "POST /detect/car_crash HTTP/1.1" 200 -
+2025-08-19 08:58:51,949 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:51] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:52,450 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:52] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:52,962 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:52] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:53,459 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:53] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:53,954 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:53] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:54,453 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:54] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:54,954 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:54] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:55,453 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:55] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:55,982 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:55] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:56,461 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:56] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:56,931 [INFO] \u23f0 Car status automatically reset to normal after 5 seconds (endpoint detection)
+2025-08-19 08:58:56,991 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:56] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:57,454 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:57] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:57,948 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:57] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:58,483 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:58] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:58,993 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:58] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:59,455 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:59] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:58:59,966 [INFO] 10.232.215.82 - - [19/Aug/2025 08:58:59] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:00,459 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:00] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:00,986 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:00] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:01,464 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:01] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:02,000 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:02] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:02,513 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:02] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:03,011 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:03] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:03,454 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:03] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:03,963 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:03] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:04,469 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:04] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:05,314 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:05] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:05,716 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:05] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:06,003 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:06] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:06,510 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:06] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:06,913 [INFO] \U0001f50d ENDPOINT: Detection result: {'crash_detected': True, 'detections': [{'class_id': 5, 'class_name': 'car_car_accident', 'confidence': 0.6837339997291565, 'bbox': [2.267756938934326, 56.92292404174805, 564.7661743164062, 340.8201599121094]}, {'class_id': 6, 'class_name': 'car_motorcycle_accident', 'confidence': 0.2596522271633148, 'bbox': [0.7192788124084473, 57.339195251464844, 560.317626953125, 336.9912109375]}]}
+2025-08-19 08:59:06,913 [WARNING] \u26a0\ufe0f ENDPOINT: Crash detected but confidence 0.684 < 0.7, but still processing as crash
+2025-08-19 08:59:06,913 [INFO] \U0001f3af ENDPOINT: Updating status to CRASH with confidence 0.684
+2025-08-19 08:59:06,914 [INFO] \u23f0 Started 5-second timer to reset car status to normal
+2025-08-19 08:59:06,914 [INFO] \U0001f697 Car status updated (endpoint): normal \u2192 crash (confidence: 0.68)
+2025-08-19 08:59:06,914 [INFO] \U0001f4ca ENDPOINT: Final car status: crash
+2025-08-19 08:59:06,915 [INFO] 127.0.0.1 - - [19/Aug/2025 08:59:06] "POST /detect/car_crash HTTP/1.1" 200 -
+2025-08-19 08:59:06,966 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:06] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:07,457 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:07] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:08,156 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:08] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:08,457 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:08] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:08,971 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:08] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:09,491 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:09] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:09,954 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:09] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:10,457 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:10] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:10,951 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:10] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:11,491 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:11] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:11,914 [INFO] \u23f0 Car status automatically reset to normal after 5 seconds (endpoint detection)
+2025-08-19 08:59:11,958 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:11] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:12,452 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:12] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:12,966 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:12] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:13,449 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:13] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:13,953 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:13] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:14,716 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:14] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:14,969 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:14] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:15,507 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:15] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:15,984 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:15] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:16,481 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:16] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:16,972 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:16] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:17,456 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:17] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:17,951 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:17] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:18,494 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:18] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:18,954 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:18] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:19,451 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:19] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:19,959 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:19] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:20,451 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:20] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:20,955 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:20] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:21,456 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:21] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:21,958 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:21] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:22,455 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:22] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:22,956 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:22] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:23,458 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:23] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:23,956 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:23] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:24,455 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:24] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:24,952 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:24] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:25,455 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:25] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:25,971 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:25] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:26,490 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:26] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:26,964 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:26] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:27,450 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:27] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:27,953 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:27] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:28,450 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:28] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:28,955 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:28] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:29,455 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:29] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:29,957 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:29] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:30,448 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:30] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:30,947 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:30] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:31,459 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:31] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:32,004 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:32] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:32,479 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:32] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:32,982 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:32] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:33,461 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:33] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:34,001 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:34] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:34,463 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:34] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:34,960 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:34] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:35,468 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:35] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:35,952 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:35] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:36,449 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:36] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:36,950 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:36] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:37,455 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:37] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:37,952 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:37] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:38,463 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:38] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:38,958 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:38] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:39,450 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:39] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:39,951 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:39] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:40,458 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:40] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:40,950 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:40] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:41,460 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:41] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:41,949 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:41] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:42,462 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:42] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:42,949 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:42] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:43,455 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:43] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:43,955 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:43] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:44,456 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:44] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:44,947 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:44] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:45,452 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:45] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:45,951 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:45] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:46,469 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:46] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:46,978 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:46] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:47,458 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:47] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:47,952 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:47] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:48,461 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:48] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:48,958 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:48] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:49,507 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:49] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:50,055 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:50] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:50,493 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:50] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:50,955 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:50] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:51,543 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:51] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:51,999 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:51] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:52,478 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:52] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:52,958 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:52] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:53,447 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:53] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:53,951 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:53] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:54,466 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:54] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:55,684 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:55] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:56,006 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:56] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:56,519 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:56] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:56,942 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:56] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:57,442 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:57] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:57,942 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:57] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:58,444 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:58] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:58,944 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:58] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:59,451 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:59] "GET /status HTTP/1.1" 200 -
+2025-08-19 08:59:59,948 [INFO] 10.232.215.82 - - [19/Aug/2025 08:59:59] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:00,450 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:00] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:00,941 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:00] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:01,446 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:01] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:01,954 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:01] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:02,438 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:02] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:02,958 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:02] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:03,440 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:03] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:03,939 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:03] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:04,441 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:04] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:04,936 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:04] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:05,442 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:05] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:05,938 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:05] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:06,441 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:06] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:06,940 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:06] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:07,443 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:07] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:07,949 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:07] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:08,441 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:08] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:08,939 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:08] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:09,439 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:09] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:09,942 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:09] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:10,436 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:10] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:10,940 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:10] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:11,439 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:11] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:11,939 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:11] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:12,441 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:12] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:12,947 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:12] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:13,443 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:13] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:13,952 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:13] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:14,439 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:14] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:14,941 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:14] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:15,449 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:15] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:15,940 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:15] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:16,440 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:16] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:16,944 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:16] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:17,481 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:17] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:17,944 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:17] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:18,447 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:18] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:18,961 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:18] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:19,439 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:19] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:19,941 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:19] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:20,443 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:20] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:20,938 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:20] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:21,440 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:21] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:21,936 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:21] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:22,442 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:22] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:22,938 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:22] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:23,442 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:23] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:23,938 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:23] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:24,440 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:24] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:24,938 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:24] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:25,437 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:25] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:26,181 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:26] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:26,441 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:26] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:26,950 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:26] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:27,439 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:27] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:27,939 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:27] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:28,445 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:28] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:28,940 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:28] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:29,446 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:29] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:29,938 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:29] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:30,446 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:30] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:30,943 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:30] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:31,438 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:31] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:31,935 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:31] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:32,444 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:32] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:32,943 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:32] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:33,438 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:33] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:33,941 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:33] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:34,439 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:34] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:34,934 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:34] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:35,432 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:35] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:35,943 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:35] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:36,437 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:36] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:36,936 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:36] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:37,437 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:37] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:37,939 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:37] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:38,440 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:38] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:38,936 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:38] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:39,458 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:39] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:39,987 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:39] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:40,458 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:40] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:40,971 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:40] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:41,746 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:41] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:41,942 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:41] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:42,437 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:42] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:42,941 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:42] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:43,439 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:43] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:43,946 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:43] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:44,440 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:44] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:44,946 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:44] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:45,442 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:45] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:45,966 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:45] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:46,444 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:46] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:46,942 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:46] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:47,467 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:47] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:47,948 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:47] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:48,437 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:48] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:48,939 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:48] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:49,443 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:49] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:49,943 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:49] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:50,444 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:50] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:50,944 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:50] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:51,443 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:51] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:51,936 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:51] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:52,443 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:52] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:52,937 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:52] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:53,440 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:53] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:53,937 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:53] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:54,447 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:54] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:54,937 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:54] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:55,441 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:55] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:56,001 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:56] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:56,440 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:56] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:56,943 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:56] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:57,456 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:57] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:57,943 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:57] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:58,445 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:58] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:58,943 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:58] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:59,460 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:59] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:00:59,939 [INFO] 10.232.215.82 - - [19/Aug/2025 09:00:59] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:00,438 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:00] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:00,939 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:00] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:01,436 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:01] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:01,937 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:01] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:02,440 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:02] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:02,944 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:02] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:03,454 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:03] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:03,998 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:03] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:04,442 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:04] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:04,954 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:04] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:05,435 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:05] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:05,949 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:05] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:06,452 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:06] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:06,949 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:06] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:07,451 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:07] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:07,935 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:07] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:08,503 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:08] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:08,934 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:08] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:09,439 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:09] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:09,953 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:09] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:10,433 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:10] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:10,936 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:10] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:11,446 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:11] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:11,937 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:11] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:12,437 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:12] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:12,952 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:12] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:13,442 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:13] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:13,938 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:13] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:14,439 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:14] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:14,947 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:14] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:15,453 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:15] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:15,941 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:15] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:16,439 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:16] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:16,939 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:16] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:17,444 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:17] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:17,941 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:17] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:18,435 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:18] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:18,945 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:18] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:19,438 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:19] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:19,940 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:19] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:20,461 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:20] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:20,943 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:20] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:21,444 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:21] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:21,938 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:21] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:22,461 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:22] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:23,034 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:23] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:23,473 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:23] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:23,946 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:23] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:24,435 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:24] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:24,939 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:24] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:25,441 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:25] "GET /status HTTP/1.1" 200 -
+2025-08-19 09:01:25,948 [INFO] 10.232.215.82 - - [19/Aug/2025 09:01:25] "GET /status HTTP/1.1" 200 -
